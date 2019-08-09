@@ -1,0 +1,69 @@
+.mpopup{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	height: 45px;
+	width: 245px;
+	position: absolute;
+	z-index: 999;
+	top: 10px;
+	left:0px;
+	right: 0px;
+	bottom: 0px;
+	margin: 0 auto;
+	border-radius: 5px;	
+	.pic{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		width: 15px;
+		height: 15px;
+		line-height: 45px;
+		margin: auto 20px auto 0;
+		.icon{
+			width: 100%;
+			height: auto;
+		}
+	}
+	.text{
+		line-height: 45px;
+		font-size: 16px;
+	}
+}
+
+.fade_Down{
+	animation: fadeInDown 0.8s both;
+}
+.fade_Top{
+	animation: fadeInTop 0.5s both;
+}
+/*从上到下*/
+@keyframes fadeInDown
+{
+    from {
+        opacity: 0;
+        -webkit-transform: translate(0,-100px); 
+        transform: stranslate(0,-100px); 
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translate(0,10px);
+        transform: stranslate(0,10px);
+    }
+}
+/*从下到上*/
+@keyframes fadeInTop
+{
+    from {
+        opacity:1;
+        -webkit-transform: translate(0,10px); 
+        transform: stranslate(0,10px);
+    }
+    to {
+
+		opacity: 0;
+		-webkit-transform: translate(0,-100px);
+		transform: stranslate(0,-100px);
+    }
+}

@@ -1,0 +1,1 @@
+<view class="content"><view hidden="{{!(isshow)}}" class="{{[activeClass,animator]}}" style="{{'background:'+(color)+';'}}"><view class="pic"><image class="icon" mode="aspectFit" src="{{icon}}"></image></view><text class="text" style="{{'color:'+(colortext)+';'}}">{{content}}</text></view></view>
