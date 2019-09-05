@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "弹窗",
-  "usingComponents": {
-    "mpopup": "/components/popup/popup"
-  }
-}

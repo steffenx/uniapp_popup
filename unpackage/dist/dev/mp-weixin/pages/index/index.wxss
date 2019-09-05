@@ -1,8 +1,0 @@
-
-.btn{
-	-webkit-transform: translateY(100%);
-	    -ms-transform: translateY(100%);
-	        transform: translateY(100%);
-	margin: 50px;
-}
-
